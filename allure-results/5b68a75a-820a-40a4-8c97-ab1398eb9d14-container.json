@@ -1,0 +1,1 @@
+{"uuid":"5b68a75a-820a-40a4-8c97-ab1398eb9d14","name":"Scenario Outline: User is on Home Page and clicks on any dropdown \"<value>\" without sign in","children":["67d60c57-2991-4dfc-8380-eb7ec0dc0c28"],"befores":[],"afters":[],"start":1679628016341,"stop":1679628048479}
