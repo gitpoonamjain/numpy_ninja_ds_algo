@@ -153,7 +153,7 @@ public class HomePage_POM {
 			}
 			
 		}
-				public void clickSignin(String string) {
+				public void clickSignOrRegister(String string) {
 					switch(string) {
 					case "Sign in":
 						signin.click();
@@ -164,9 +164,7 @@ public class HomePage_POM {
 					}
 				}
 				
-				public void clickresister() {
-					register.click();
-				}
+
 }
 
 

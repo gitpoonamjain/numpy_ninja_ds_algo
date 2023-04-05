@@ -3,7 +3,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class LoggerLoad {
-	private static Logger logger = LogManager.getLogger();
+	private static Logger logger = LogManager.getLogger();// getLogger() method of the LogManager class, which returns a value and store it in logger
 	public static void info(String message) {
 		//System.out.println("in info");
 		logger.info(message);

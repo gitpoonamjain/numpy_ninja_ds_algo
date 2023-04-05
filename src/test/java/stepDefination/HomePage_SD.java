@@ -19,7 +19,7 @@ public class HomePage_SD {
 
 	@When("user clicks on {string} button")
 	public void user_clicks_on_button(String string) {
-		homePage.getstarted();; 
+		homePage.getstarted();
 	}
 
 	@Then("user redirected to home page")
@@ -70,7 +70,7 @@ public class HomePage_SD {
 
 	@When("The user clicks Sign in")
 	public void the_user_clicks_sign_in() {
-		homePage.clickSignin("Sign in");
+		homePage.clickSignOrRegister("Sign in");
 	}
 
 	
@@ -81,7 +81,7 @@ public class HomePage_SD {
 	
 	@When("The user clicks Register")
 	public void the_user_clicks_register() {
-		homePage.clickSignin("Register");
+		homePage.clickSignOrRegister("Register");
 	}		
 
 	@Then("The user should be redirected to Register form")

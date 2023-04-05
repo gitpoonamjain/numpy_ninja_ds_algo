@@ -58,7 +58,37 @@ public class Configreader {
 				throw new RuntimeException("HomePageurl not specified in the Config.properties file");
 		}
 		
+		//ResisterPage URL
+		
+		public static String ResisterPage(){
+			String resisterurl=prop.getProperty("resisterurl");
+			if (resisterurl != null)
+				return resisterurl;
+			else 
+				throw new RuntimeException("ResisterPage not specified in the Config.properties file");
+		}
+		
+		//Excel reader
+		
+		public static String excelPath(){
+			String excelpath=prop.getProperty("excelpath");
+			if (excelpath != null)
+				return excelpath;
+			else 
+				throw new RuntimeException("ResisterPage not specified in the Config.properties file");
+		}
+		
+		//SigninPage URL
+		
+		public static String SigninPage(){
+			String signinurl=prop.getProperty("signinurl");
+			if (signinurl != null)
+				return signinurl;
+			else 
+				throw new RuntimeException("ResisterPage not specified in the Config.properties file");
+		
 		
 	}
+}
 	
 

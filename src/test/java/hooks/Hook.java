@@ -23,26 +23,26 @@ public class Hook {
 		//Get Browser Type
 		LoggerLoad.info("Loading Config file");
 		System.out.println("in hooks.Hook");
-		Configreader.readConfig();
+		Configreader.readConfig(); //reads config.properties file and load them into properties object
 		//Configreader.setbrowser(Configreader.prop.getProperty("browser"));
-		String browser = Configreader.getbrowser();
+		String browser = Configreader.getbrowser(); //gets the browser property from the properties object
 		System.out.println(Configreader.getbrowser());
 		//System.out.println(Configreader.browser());
 		//Initialize driver from baseclass
-		base = new BaseClass();
-		driver = base.initialize(browser);
+		base = new BaseClass(); //creates BaseClass object
+		driver = base.initialize(browser); // creates and returns Webdriver object for the browser passed as parameter
 		LoggerLoad.info("Intializing" + browser +"driver");
 		
 	}
-//	@AfterStep
-//	public void afterstep(Scenario scenario) {
-//		if (scenario.isFailed()) {
-//			LoggerLoad.error("Steps Failed , Taking Screenshot");
-//			final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//			scenario.attach(screenshot, "image/png", "My screenshot");
-//			Allure.attachment("Myscreenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-		
-		//}
+	@AfterStep
+	public void afterstep(Scenario scenario) {
+		if (scenario.isFailed()) {
+			LoggerLoad.error("Steps Failed , Taking Screenshot");
+			final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", "My screenshot");
+			Allure.attachment("Myscreenshot",new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+	
+	}
 	}
 
 //	@AfterAll
@@ -52,7 +52,7 @@ public class Hook {
 //		base.closeallDriver();
 //		}
 
-	//}
+	}
 
 
 

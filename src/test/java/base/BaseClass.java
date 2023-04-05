@@ -21,7 +21,7 @@ public class BaseClass {
 			CO.addArguments("--remote-allow-origins=*");	
 			 driver = new ChromeDriver(CO);
 		}
-		else if(browser.equalsIgnoreCase("edge")) {
+		else if(browser.equalsIgnoreCase("Edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}else if (browser.equalsIgnoreCase("Firefox")) {
