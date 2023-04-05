@@ -94,3 +94,99 @@
 [INFO ]2023-04-05 17:40:46.140 [main]LoggerLoad-checking alert message you are not logged in
 [INFO ]2023-04-05 17:40:46.196 [main]LoggerLoad-user is on home page SD
 [INFO ]2023-04-05 17:40:46.443 [main]LoggerLoad-user successfully logout SD
+[INFO ]2023-04-05 18:03:40.910 [main]LoggerLoad-Loading Config file
+[INFO ]2023-04-05 18:03:43.359 [main]LoggerLoad-IntializingChromedriver
+[INFO ]2023-04-05 18:03:44.332 [main]LoggerLoad-click on ds
+[INFO ]2023-04-05 18:03:44.514 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:44.541 [main]LoggerLoad-alert you are not allow to login
+[INFO ]2023-04-05 18:03:44.561 [main]LoggerLoad-click LinkedList 
+[INFO ]2023-04-05 18:03:44.752 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:44.777 [main]LoggerLoad-alert you are not allow to login
+[INFO ]2023-04-05 18:03:44.793 [main]LoggerLoad-click stack
+[INFO ]2023-04-05 18:03:44.983 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:45.006 [main]LoggerLoad-alert you are not allow to login
+[INFO ]2023-04-05 18:03:45.028 [main]LoggerLoad-click  queue 
+[INFO ]2023-04-05 18:03:45.225 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:45.250 [main]LoggerLoad-alert you are not allow to login
+[INFO ]2023-04-05 18:03:45.263 [main]LoggerLoad-click  Tree 
+[INFO ]2023-04-05 18:03:45.464 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:45.490 [main]LoggerLoad-alert you are not allow to login
+[INFO ]2023-04-05 18:03:45.628 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:45.822 [main]LoggerLoad-Checking array logger in pom Arrays
+[INFO ]2023-04-05 18:03:45.823 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:45.826 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:46.008 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:46.165 [main]LoggerLoad-Checking linkedlist logger in pom Linked list
+[INFO ]2023-04-05 18:03:46.165 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:46.169 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:46.304 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:46.307 [main]LoggerLoad-Checking stack logger in pom Stack
+[INFO ]2023-04-05 18:03:46.455 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:46.457 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:46.595 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:46.748 [main]LoggerLoad-Checking queuelogger in pom Queue
+[INFO ]2023-04-05 18:03:46.748 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:46.750 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:46.903 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:47.054 [main]LoggerLoad-Checking tree logger in pom Tree
+[INFO ]2023-04-05 18:03:47.055 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:47.058 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:47.191 [main]LoggerLoad-click on data structure dropdown sd
+[INFO ]2023-04-05 18:03:47.389 [main]LoggerLoad-Checking graph logger in pom Graph
+[INFO ]2023-04-05 18:03:47.389 [main]LoggerLoad-click on each dropdown sd
+[INFO ]2023-04-05 18:03:47.390 [main]LoggerLoad-you are not logged in sd
+[INFO ]2023-04-05 18:03:47.403 [main]LoggerLoad-user is on homepage sd
+[INFO ]2023-04-05 18:03:47.530 [main]LoggerLoad-user is on signinpage sd
+[INFO ]2023-04-05 18:03:47.546 [main]LoggerLoad-user is on homepage sd
+[INFO ]2023-04-05 18:03:47.898 [main]LoggerLoad-Please fill out username field
+[INFO ]2023-04-05 18:03:48.095 [main]LoggerLoad-Please fill out password  field
+[INFO ]2023-04-05 18:03:48.291 [main]LoggerLoad-Please fill out password confirmation field
+[INFO ]2023-04-05 18:03:49.144 [main]LoggerLoad-User Enter username as " $$$$ "and Password as " Numy123" Confirm password as" Numy123
+[INFO ]2023-04-05 18:03:49.649 [main]LoggerLoad-password_mismatch:The two password fields didn’t match. --- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:49.649 [main]LoggerLoad-Message from Register click SD: password_mismatch:The two password fields didn’t match. -- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:49.786 [main]LoggerLoad-User Enter username as " bahnisikha.dalbehera@gmail.com "and Password as " abct56" Confirm password as" abcyyy5
+[INFO ]2023-04-05 18:03:50.309 [main]LoggerLoad-password_mismatch:The two password fields didn’t match. --- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:50.309 [main]LoggerLoad-Message from Register click SD: password_mismatch:The two password fields didn’t match. -- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:50.451 [main]LoggerLoad-User Enter username as " bahnisikha.dalbehera@gmail.com "and Password as " 12345abc" Confirm password as" 12345abc
+[INFO ]2023-04-05 18:03:50.982 [main]LoggerLoad-password_mismatch:The two password fields didn’t match. --- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:50.982 [main]LoggerLoad-Message from Register click SD: password_mismatch:The two password fields didn’t match. -- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:51.101 [main]LoggerLoad-User Enter username as " bahnisikha.dalbehera@gmail.com "and Password as " ffg12" Confirm password as" ffg12
+[INFO ]2023-04-05 18:03:51.632 [main]LoggerLoad-password_mismatch:The two password fields didn’t match. --- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:51.632 [main]LoggerLoad-Message from Register click SD: password_mismatch:The two password fields didn’t match. -- password_mismatch:The two password fields didn’t match.
+[INFO ]2023-04-05 18:03:51.760 [main]LoggerLoad-user is on login page
+[INFO ]2023-04-05 18:03:51.779 [main]LoggerLoad-Usser is on signin page
+[INFO ]2023-04-05 18:03:52.030 [main]LoggerLoad-User succesfully rediredct to registerpage
+[INFO ]2023-04-05 18:03:52.042 [main]LoggerLoad-user is on register page SD
+[INFO ]2023-04-05 18:03:52.190 [main]LoggerLoad-user is on signin page SD
+[INFO ]2023-04-05 18:03:52.219 [main]LoggerLoad-user is on signin page SD
+[INFO ]2023-04-05 18:03:52.891 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:52.893 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:52.996 [main]LoggerLoad-user is on signin page SD
+[INFO ]2023-04-05 18:03:53.490 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:53.492 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:53.552 [main]LoggerLoad-user is on signin page SD
+[INFO ]2023-04-05 18:03:53.915 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:53.917 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:53.967 [main]LoggerLoad-user is on loginpage SD
+[INFO ]2023-04-05 18:03:54.203 [main]LoggerLoad-user enter username and password
+[INFO ]2023-04-05 18:03:54.536 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:54.770 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:54.781 [main]LoggerLoad-message from soumya title page Login
+[INFO ]2023-04-05 18:03:54.830 [main]LoggerLoad-user is on loginpage SD
+[INFO ]2023-04-05 18:03:54.956 [main]LoggerLoad-user enter username and password
+[INFO ]2023-04-05 18:03:55.211 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:55.386 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:55.392 [main]LoggerLoad-message from soumya title page Login
+[INFO ]2023-04-05 18:03:55.424 [main]LoggerLoad-user is on loginpage SD
+[INFO ]2023-04-05 18:03:55.525 [main]LoggerLoad-user enter username and password
+[INFO ]2023-04-05 18:03:55.762 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:55.941 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:55.948 [main]LoggerLoad-message from soumya title page Login
+[INFO ]2023-04-05 18:03:55.979 [main]LoggerLoad-user is on loginpage SD
+[INFO ]2023-04-05 18:03:56.071 [main]LoggerLoad-user enter username and password
+[INFO ]2023-04-05 18:03:56.311 [main]LoggerLoad-Invalid username and password
+[INFO ]2023-04-05 18:03:56.602 [main]LoggerLoad-user enter invalid username and password pom
+[INFO ]2023-04-05 18:03:56.608 [main]LoggerLoad-message from soumya title page NumpyNinja
+[INFO ]2023-04-05 18:03:56.615 [main]LoggerLoad-checking alert message you are not logged in
+[INFO ]2023-04-05 18:03:56.647 [main]LoggerLoad-user is on home page SD
+[INFO ]2023-04-05 18:03:56.847 [main]LoggerLoad-user successfully logout SD
