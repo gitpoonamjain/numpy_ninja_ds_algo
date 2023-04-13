@@ -48,16 +48,7 @@ public class BaseClass {
 		driver.close();
 	}
 
-	//public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//WebDriverManager.chromedriver().setup();
-		//ChromeOptions CO= new ChromeOptions();
-		//CO.addArguments("--remote-allow-origins=*");	
-		//WebDriver driver = new ChromeDriver(CO);
 		
-		//driver.get("http://google.com");
-		//driver.close();
-	
 	}
 
 
