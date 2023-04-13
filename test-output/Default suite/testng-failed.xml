@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="17 18 19 20 27 28 29 30"/>
+          <include name="runScenario" invocation-numbers="43"/>
         </methods>
       </class> <!-- runner.runnercucumber -->
     </classes>
