@@ -56,6 +56,7 @@ public class HomePage_POM {
 	public  HomePage_POM() {
 
 		PageFactory.initElements(driver,this);
+		System.out.println("Branch testing");
 	}
 	public void geturl() {
 		driver.get(url);
