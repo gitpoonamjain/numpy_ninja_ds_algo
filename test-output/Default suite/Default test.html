@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>47/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 12 22:23:53 EDT 2023</td>
+<td>Started on:</td><td>Mon Apr 17 13:59:50 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>36 seconds (36579 ms)</td>
+<tr><td>Total time:</td><td>70 seconds (70793 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,41 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Clicked on TryEditor Link on Tree Page", "Tree Page Try Editor test"</td>
+<td><div><pre>java.lang.AssertionError: expected [ ] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at pageObjectModel.TreePage_POM.TreeSubpageTitle(TreePage_POM.java:78)
+	at stepDefination.TreePage_TryEditor.user_is_on_tree_subpage(TreePage_TryEditor.java:37)
+	at ✽.User is on Tree Subpage &quot; &quot;(file:///C:/Users/sarka/git/numpy_ninja_ds_algo/src/test/resources/features/Tree_TryEditor.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1330012679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1330012679'><pre>java.lang.AssertionError: expected [ ] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at pageObjectModel.TreePage_POM.TreeSubpageTitle(TreePage_POM.java:78)
+	at stepDefination.TreePage_TryEditor.user_is_on_tree_subpage(TreePage_TryEditor.java:37)
+	at ✽.User is on Tree Subpage &quot; &quot;(file:///C:/Users/sarka/git/numpy_ninja_ds_algo/src/test/resources/features/Tree_TryEditor.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,225 +111,240 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
 <td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor", "performing Stack"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor", "performing Stack"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing Data Structures-Introduction"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Username textbox", "Title of your feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields belo Password Confirmation textbox", "Title of your feature"</td>
 <td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "launch the home page of dsalgo portal", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signin link", "Title of your feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>3</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "performing Data Structures-Introduction"</td>
 <td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "performing Data Structures-Introduction"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on homepage", "performing Stack"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to Register page", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor", "performing Stack"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Title of your feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to login  page", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
-<td></td>
 <td>1</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>2</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Operations in Stack" page", "performing Stack"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "performing signin"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Practice Questions" in stack Page", "performing Stack"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Operations in Stack" page", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Username textbox", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can navigate to Terminologies page", "Title of your feature"</td>
+<td></td>
+<td>4</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can navigate to Overview of trees page", "Title of your feature"</td>
+<td></td>
+<td>6</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 <tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
 <td></td>
 <td>0</td>
-<td>runner.runnercucumber@4c178a76</td></tr>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to Register page", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "launch the home page of dsalgo portal", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>2</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on homepage", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to login  page", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can navigate to Types of trees page", "Title of your feature"</td>
+<td></td>
+<td>6</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signin link", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@55fe41ea</td></tr>
 </table><p>
 </body>
 </html>

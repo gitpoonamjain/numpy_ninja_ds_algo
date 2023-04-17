@@ -122,6 +122,9 @@ public class Configreader {
 						return stackurl;
 					else 
 						throw new RuntimeException("Stack Intro URL not specified in the Config.properties file");				
+					
+					
+					
 				}
 				public static String StackOperationPage(){
 					String stacoperationkurl=prop.getProperty("operationstackpage");
@@ -152,6 +155,41 @@ public class Configreader {
 					else 
 						throw new RuntimeException("Stack practics URL not specified in the Config.properties file");	
 }
-}
+				
+				public static String TreePage(){
+					String treepageurl=prop.getProperty("treepageurl");
+					if (treepageurl != null)
+						return treepageurl;
+					else 
+						throw new RuntimeException("treepage not specified in the Config.properties file");
+				
+				
+			}
+				
+				public static String TreeOverviewPage(){
+					String overviewtreepageurl=prop.getProperty("treeoverviewurl");
+					if (overviewtreepageurl != null)
+						return overviewtreepageurl;
+					else 
+						throw new RuntimeException("treepageoverview not specified in the Config.properties file");
+				
+				
+			}
+				
+				public static String TryEditorPage(){
+					String tryeditorpageurl=prop.getProperty("treetryeditorurl");
+					if (tryeditorpageurl != null)
+						return tryeditorpageurl;
+					else 
+						throw new RuntimeException("treetryeditor page url not specified in the Config.properties file");
+				
+				
+			}
+			
+				
+		}
+
+				
+
 	
 

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\14377\AppData\Local\Temp\testng-eclipse--740247371\testng-customsuite.xml</span>
+                    <span>C:\Users\sarka\AppData\Local\Temp\testng-eclipse--1902685941\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">44 methods,   44 passed</span>
+                    <span class="method-stats">48 methods, 1 failed,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User Clicked on TryEditor Link on Tree Page&quot;, &quot;Tree Page Try Editor test&quot;)">runScenario("User Clicked on TryEditor Link on Tree Page", "Tree Page Try Editor test")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -118,47 +127,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">runScenario("User on login page and login with invalid inputs", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to run code in tryEditor&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to run code in tryEditor", "performing Stack")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Time Complexity page&quot;, &quot;performing ...)">runScenario("The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Title of your f...)">runScenario("The user is presented with error message for empty fields below Username textbox", "Title of your f...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,142 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;launch the home page of dsalgo portal&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("launch the home page of dsalgo portal", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">runScenario("User on login page and login with invalid inputs", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying signin link&quot;, &quot;Title of your feature&quot;)">runScenario("Verifying signin link", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is logged in to DS Algo portal&quot;, &quot;performing Data Structures-Introduction&quot;)">runScenario("The user is logged in to DS Algo portal", "performing Data Structures-Introduction")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to Data Structure introduction page&quot;, &quot;performing Data Structures-Intr...)">runScenario("The user is able to navigate to Data Structure introduction page", "performing Data Structures-Intr...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on homepage&quot;, &quot;performing Stack&quot;)">runScenario("user is on homepage", "performing Stack")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Redirect to Register page&quot;, &quot;performing signin&quot;)">runScenario("Redirect to Register page", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to a page having an tryEditor&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to navigate to a page having an tryEditor", "performing Stack")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Title of your f...)">runScenario("The user is presented with error message for empty fields below Password textbox", "Title of your f...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Redirect to login  page&quot;, &quot;performing signin&quot;)">runScenario("Redirect to login  page", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on Register", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to Time Complexity page&quot;, &quot;performing Data Structures-Introduction&quot;)">runScenario("The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to run code in tryEditor for Time Complexity page&quot;, &quot;performing Data Structures-In...)">runScenario("The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-In...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to &quot;Operations in Stack&quot; page&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to navigate to "Operations in Stack" page", "performing Stack")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying signout link&quot;, &quot;performing signin&quot;)">runScenario("Verifying signout link", "performing signin")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)">runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -313,12 +152,202 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Time Complexity page&quot;, &quot;performing ...)">runScenario("The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to &quot;Operations in Stack&quot; page&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to navigate to "Operations in Stack" page", "performing Stack")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Title of your f...)">runScenario("The user is presented with error message for empty fields below Username textbox", "Title of your f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User can navigate to Terminologies page&quot;, &quot;Title of your feature&quot;)">runScenario("User can navigate to Terminologies page", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying signout link&quot;, &quot;performing signin&quot;)">runScenario("Verifying signout link", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to a page having an tryEditor&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to navigate to a page having an tryEditor", "performing Stack")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to Data Structure introduction page&quot;, &quot;performing Data Structures-Intr...)">runScenario("The user is able to navigate to Data Structure introduction page", "performing Data Structures-Intr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on Register", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to navigate to Time Complexity page&quot;, &quot;performing Data Structures-Introduction&quot;)">runScenario("The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User can navigate to Overview of trees page&quot;, &quot;Title of your feature&quot;)">runScenario("User can navigate to Overview of trees page", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">runScenario("User on login page and login with invalid inputs", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to run code in tryEditor&quot;, &quot;performing Stack&quot;)">runScenario("The user is able to run code in tryEditor", "performing Stack")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Redirect to Register page&quot;, &quot;performing signin&quot;)">runScenario("Redirect to Register page", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;launch the home page of dsalgo portal&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("launch the home page of dsalgo portal", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on homepage&quot;, &quot;performing Stack&quot;)">runScenario("user is on homepage", "performing Stack")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Title of your f...)">runScenario("The user is presented with error message for empty fields below Password textbox", "Title of your f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)">runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Redirect to login  page&quot;, &quot;performing signin&quot;)">runScenario("Redirect to login  page", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">runScenario("User on login page and login with invalid inputs", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;The user is able to run code in tryEditor for Time Complexity page&quot;, &quot;performing Data Structures-In...)">runScenario("The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-In...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">runScenario("to register with all the data", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">runScenario("User on login page and login with invalid inputs", "performing signin")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User can navigate to Types of trees page&quot;, &quot;Title of your feature&quot;)">runScenario("User can navigate to Types of trees page", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;Verifying signin link&quot;, &quot;Title of your feature&quot;)">runScenario("Verifying signin link", "Title of your feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">runScenario("user is on home page", "Launch Start page and Test Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.runnercucumber" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -333,6 +362,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.runnercucumber</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User Clicked on TryEditor Link on Tree Page&quot;, &quot;Tree Page Try Editor test&quot;)">
+                  </a> <!-- runScenario("User Clicked on TryEditor Link on Tree Page", "Tree Page Try Editor test") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User Clicked on TryEditor Link on Tree Page","Tree Page Try Editor test")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ ] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at pageObjectModel.TreePage_POM.TreeSubpageTitle(TreePage_POM.java:78)
+	at stepDefination.TreePage_TryEditor.user_is_on_tree_subpage(TreePage_TryEditor.java:37)
+	at ✽.User is on Tree Subpage &quot; &quot;(file:///C:/Users/sarka/git/numpy_ninja_ds_algo/src/test/resources/features/Tree_TryEditor.feature:25)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -341,20 +400,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
+                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("to register with all the data","Title of your feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to register with all the data","Title of your feature")</span>
+                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -371,90 +420,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
                   </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario("User on login page and login with invalid inputs", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User on login page and login with invalid inputs","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to run code in tryEditor&quot;, &quot;performing Stack&quot;)">
-                  </a> <!-- runScenario("The user is able to run code in tryEditor", "performing Stack") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to run code in tryEditor","performing Stack")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Time Complexity page&quot;, &quot;performing ...)">
-                  </a> <!-- runScenario("The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing ...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to navigate to a page having an tryEditor from Time Complexity page","performing Data Structures-Introduction")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on sign in", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Title of your f...)">
-                  </a> <!-- runScenario("The user is presented with error message for empty fields below Username textbox", "Title of your f...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for empty fields below Username textbox","Title of your feature")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -471,76 +440,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to register with all the data","Title of your feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;launch the home page of dsalgo portal&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("launch the home page of dsalgo portal", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("launch the home page of dsalgo portal","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario("User on login page and login with invalid inputs", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User on login page and login with invalid inputs","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verifying signin link&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Verifying signin link", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verifying signin link","Title of your feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;The user is logged in to DS Algo portal&quot;, &quot;performing Data Structures-Introduction&quot;)">
                   </a> <!-- runScenario("The user is logged in to DS Algo portal", "performing Data Structures-Introduction") -->
                   <span class="method-name">runScenario</span>
@@ -551,200 +450,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to navigate to Data Structure introduction page&quot;, &quot;performing Data Structures-Intr...)">
-                  </a> <!-- runScenario("The user is able to navigate to Data Structure introduction page", "performing Data Structures-Intr...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to navigate to Data Structure introduction page","performing Data Structures-Introduction")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
                   </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;user is on homepage&quot;, &quot;performing Stack&quot;)">
-                  </a> <!-- runScenario("user is on homepage", "performing Stack") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("user is on homepage","performing Stack")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Redirect to Register page&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario("Redirect to Register page", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Redirect to Register page","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to navigate to a page having an tryEditor&quot;, &quot;performing Stack&quot;)">
-                  </a> <!-- runScenario("The user is able to navigate to a page having an tryEditor", "performing Stack") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to navigate to a page having an tryEditor","performing Stack")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Title of your f...)">
-                  </a> <!-- runScenario("The user is presented with error message for empty fields below Password textbox", "Title of your f...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for empty fields below Password textbox","Title of your feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Redirect to login  page&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario("Redirect to login  page", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Redirect to login  page","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on Register", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on Register","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("to register with all the data","Title of your feature")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to navigate to Time Complexity page&quot;, &quot;performing Data Structures-Introduction&quot;)">
-                  </a> <!-- runScenario("The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to navigate to Time Complexity page","performing Data Structures-Introduction")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to run code in tryEditor for Time Complexity page&quot;, &quot;performing Data Structures-In...)">
-                  </a> <!-- runScenario("The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-In...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to run code in tryEditor for Time Complexity page","performing Data Structures-Introduction")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is able to navigate to &quot;Operations in Stack&quot; page&quot;, &quot;performing Stack&quot;)">
-                  </a> <!-- runScenario("The user is able to navigate to "Operations in Stack" page", "performing Stack") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is able to navigate to "Operations in Stack" page","performing Stack")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verifying signout link&quot;, &quot;performing signin&quot;)">
-                  </a> <!-- runScenario("Verifying signout link", "performing signin") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verifying signout link","performing signin")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)">
-                  </a> <!-- runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page","performing Data Structures-Introduction")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
-                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -761,10 +470,190 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to register with all the data","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to register with all the data","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to a page having an tryEditor from Time Complexity page&quot;, &quot;performing ...)">
+                  </a> <!-- runScenario("The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to a page having an tryEditor from Time Complexity page","performing Data Structures-Introduction")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to &quot;Operations in Stack&quot; page&quot;, &quot;performing Stack&quot;)">
+                  </a> <!-- runScenario("The user is able to navigate to "Operations in Stack" page", "performing Stack") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to "Operations in Stack" page","performing Stack")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Username textbox&quot;, &quot;Title of your f...)">
+                  </a> <!-- runScenario("The user is presented with error message for empty fields below Username textbox", "Title of your f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for empty fields below Username textbox","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can navigate to Terminologies page&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("User can navigate to Terminologies page", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can navigate to Terminologies page","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verifying signout link&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario("Verifying signout link", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verifying signout link","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to a page having an tryEditor&quot;, &quot;performing Stack&quot;)">
+                  </a> <!-- runScenario("The user is able to navigate to a page having an tryEditor", "performing Stack") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to a page having an tryEditor","performing Stack")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to Data Structure introduction page&quot;, &quot;performing Data Structures-Intr...)">
+                  </a> <!-- runScenario("The user is able to navigate to Data Structure introduction page", "performing Data Structures-Intr...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to Data Structure introduction page","performing Data Structures-Introduction")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on Register&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on Register", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on Register","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to navigate to Time Complexity page&quot;, &quot;performing Data Structures-Introduction&quot;)">
+                  </a> <!-- runScenario("The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to navigate to Time Complexity page","performing Data Structures-Introduction")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can navigate to Overview of trees page&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("User can navigate to Overview of trees page", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can navigate to Overview of trees page","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
                   </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on sign in", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on sign in","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -779,12 +668,212 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to run code in tryEditor&quot;, &quot;performing Stack&quot;)">
+                  </a> <!-- runScenario("The user is able to run code in tryEditor", "performing Stack") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to run code in tryEditor","performing Stack")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Redirect to Register page&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario("Redirect to Register page", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Redirect to Register page","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;launch the home page of dsalgo portal&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("launch the home page of dsalgo portal", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("launch the home page of dsalgo portal","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user is on homepage&quot;, &quot;performing Stack&quot;)">
+                  </a> <!-- runScenario("user is on homepage", "performing Stack") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user is on homepage","performing Stack")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for empty fields below Password textbox&quot;, &quot;Title of your f...)">
+                  </a> <!-- runScenario("The user is presented with error message for empty fields below Password textbox", "Title of your f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for empty fields below Password textbox","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)">
+                  </a> <!-- runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page","performing Data Structures-Introduction")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Redirect to login  page&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario("Redirect to login  page", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Redirect to login  page","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to register with all the data","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid inputs","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The user is able to run code in tryEditor for Time Complexity page&quot;, &quot;performing Data Structures-In...)">
+                  </a> <!-- runScenario("The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-In...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The user is able to run code in tryEditor for Time Complexity page","performing Data Structures-Introduction")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;to register with all the data&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("to register with all the data", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("to register with all the data","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid inputs","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can navigate to Types of trees page&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("User can navigate to Types of trees page", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can navigate to Types of trees page","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is on Home page and click on dropdown without sign in&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is on Home page and click on dropdown without sign in","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verifying signin link&quot;, &quot;Title of your feature&quot;)">
+                  </a> <!-- runScenario("Verifying signin link", "Title of your feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verifying signin link","Title of your feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user is on home page&quot;, &quot;Launch Start page and Test Home Page&quot;)">
+                  </a> <!-- runScenario("user is on home page", "Launch Start page and Test Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user is on home page","Launch Start page and Test Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;&quot;User on login page and login with invalid and valid inputs from Excel&quot;&quot;, &quot;performing signin&quot;)">
+                  </a> <!-- runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">(""User on login page and login with invalid and valid inputs from Excel"","performing signin")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\14377\AppData\Local\Temp\testng-eclipse--740247371\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sarka\AppData\Local\Temp\testng-eclipse--1902685941\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -841,188 +930,204 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(44);
+data.addRows(48);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.runnercucumber')
-data.setCell(0, 3, 2673);
+data.setCell(0, 3, 6386);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runner.runnercucumber')
-data.setCell(1, 3, 1202);
+data.setCell(1, 3, 6271);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runner.runnercucumber')
-data.setCell(2, 3, 1167);
+data.setCell(2, 3, 4050);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runner.runnercucumber')
-data.setCell(3, 3, 1111);
+data.setCell(3, 3, 3136);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'runner.runnercucumber')
-data.setCell(4, 3, 1076);
+data.setCell(4, 3, 2584);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'runner.runnercucumber')
-data.setCell(5, 3, 1062);
+data.setCell(5, 3, 1886);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'runner.runnercucumber')
-data.setCell(6, 3, 1038);
+data.setCell(6, 3, 1703);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'runner.runnercucumber')
-data.setCell(7, 3, 1021);
+data.setCell(7, 3, 1283);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'runner.runnercucumber')
-data.setCell(8, 3, 993);
+data.setCell(8, 3, 1227);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'runner.runnercucumber')
-data.setCell(9, 3, 989);
+data.setCell(9, 3, 1032);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'runner.runnercucumber')
-data.setCell(10, 3, 711);
+data.setCell(10, 3, 1003);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'runScenario')
 data.setCell(11, 2, 'runner.runnercucumber')
-data.setCell(11, 3, 705);
+data.setCell(11, 3, 1002);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'runScenario')
 data.setCell(12, 2, 'runner.runnercucumber')
-data.setCell(12, 3, 667);
+data.setCell(12, 3, 978);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'runScenario')
 data.setCell(13, 2, 'runner.runnercucumber')
-data.setCell(13, 3, 633);
+data.setCell(13, 3, 958);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'runScenario')
 data.setCell(14, 2, 'runner.runnercucumber')
-data.setCell(14, 3, 610);
+data.setCell(14, 3, 922);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'runScenario')
 data.setCell(15, 2, 'runner.runnercucumber')
-data.setCell(15, 3, 581);
+data.setCell(15, 3, 831);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'runScenario')
 data.setCell(16, 2, 'runner.runnercucumber')
-data.setCell(16, 3, 519);
+data.setCell(16, 3, 734);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'runScenario')
 data.setCell(17, 2, 'runner.runnercucumber')
-data.setCell(17, 3, 481);
+data.setCell(17, 3, 681);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'runScenario')
 data.setCell(18, 2, 'runner.runnercucumber')
-data.setCell(18, 3, 469);
+data.setCell(18, 3, 663);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'runScenario')
 data.setCell(19, 2, 'runner.runnercucumber')
-data.setCell(19, 3, 464);
+data.setCell(19, 3, 643);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'runScenario')
 data.setCell(20, 2, 'runner.runnercucumber')
-data.setCell(20, 3, 437);
+data.setCell(20, 3, 637);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'runScenario')
 data.setCell(21, 2, 'runner.runnercucumber')
-data.setCell(21, 3, 416);
+data.setCell(21, 3, 620);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'runScenario')
 data.setCell(22, 2, 'runner.runnercucumber')
-data.setCell(22, 3, 408);
+data.setCell(22, 3, 618);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'runScenario')
 data.setCell(23, 2, 'runner.runnercucumber')
-data.setCell(23, 3, 396);
+data.setCell(23, 3, 614);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'runScenario')
 data.setCell(24, 2, 'runner.runnercucumber')
-data.setCell(24, 3, 393);
+data.setCell(24, 3, 597);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'runScenario')
 data.setCell(25, 2, 'runner.runnercucumber')
-data.setCell(25, 3, 392);
+data.setCell(25, 3, 587);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'runScenario')
 data.setCell(26, 2, 'runner.runnercucumber')
-data.setCell(26, 3, 367);
+data.setCell(26, 3, 581);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'runScenario')
 data.setCell(27, 2, 'runner.runnercucumber')
-data.setCell(27, 3, 342);
+data.setCell(27, 3, 555);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'runScenario')
 data.setCell(28, 2, 'runner.runnercucumber')
-data.setCell(28, 3, 331);
+data.setCell(28, 3, 534);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'runScenario')
 data.setCell(29, 2, 'runner.runnercucumber')
-data.setCell(29, 3, 312);
+data.setCell(29, 3, 527);
 data.setCell(30, 0, 30)
 data.setCell(30, 1, 'runScenario')
 data.setCell(30, 2, 'runner.runnercucumber')
-data.setCell(30, 3, 298);
+data.setCell(30, 3, 525);
 data.setCell(31, 0, 31)
 data.setCell(31, 1, 'runScenario')
 data.setCell(31, 2, 'runner.runnercucumber')
-data.setCell(31, 3, 294);
+data.setCell(31, 3, 523);
 data.setCell(32, 0, 32)
 data.setCell(32, 1, 'runScenario')
 data.setCell(32, 2, 'runner.runnercucumber')
-data.setCell(32, 3, 292);
+data.setCell(32, 3, 512);
 data.setCell(33, 0, 33)
 data.setCell(33, 1, 'runScenario')
 data.setCell(33, 2, 'runner.runnercucumber')
-data.setCell(33, 3, 284);
+data.setCell(33, 3, 501);
 data.setCell(34, 0, 34)
 data.setCell(34, 1, 'runScenario')
 data.setCell(34, 2, 'runner.runnercucumber')
-data.setCell(34, 3, 270);
+data.setCell(34, 3, 496);
 data.setCell(35, 0, 35)
 data.setCell(35, 1, 'runScenario')
 data.setCell(35, 2, 'runner.runnercucumber')
-data.setCell(35, 3, 269);
+data.setCell(35, 3, 458);
 data.setCell(36, 0, 36)
 data.setCell(36, 1, 'runScenario')
 data.setCell(36, 2, 'runner.runnercucumber')
-data.setCell(36, 3, 268);
+data.setCell(36, 3, 435);
 data.setCell(37, 0, 37)
 data.setCell(37, 1, 'runScenario')
 data.setCell(37, 2, 'runner.runnercucumber')
-data.setCell(37, 3, 265);
+data.setCell(37, 3, 429);
 data.setCell(38, 0, 38)
 data.setCell(38, 1, 'runScenario')
 data.setCell(38, 2, 'runner.runnercucumber')
-data.setCell(38, 3, 261);
+data.setCell(38, 3, 400);
 data.setCell(39, 0, 39)
 data.setCell(39, 1, 'runScenario')
 data.setCell(39, 2, 'runner.runnercucumber')
-data.setCell(39, 3, 250);
+data.setCell(39, 3, 389);
 data.setCell(40, 0, 40)
 data.setCell(40, 1, 'runScenario')
 data.setCell(40, 2, 'runner.runnercucumber')
-data.setCell(40, 3, 244);
+data.setCell(40, 3, 375);
 data.setCell(41, 0, 41)
 data.setCell(41, 1, 'runScenario')
 data.setCell(41, 2, 'runner.runnercucumber')
-data.setCell(41, 3, 234);
+data.setCell(41, 3, 368);
 data.setCell(42, 0, 42)
 data.setCell(42, 1, 'runScenario')
 data.setCell(42, 2, 'runner.runnercucumber')
-data.setCell(42, 3, 227);
+data.setCell(42, 3, 336);
 data.setCell(43, 0, 43)
 data.setCell(43, 1, 'runScenario')
 data.setCell(43, 2, 'runner.runnercucumber')
-data.setCell(43, 3, 162);
+data.setCell(43, 3, 333);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'runner.runnercucumber')
+data.setCell(44, 3, 285);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'runner.runnercucumber')
+data.setCell(45, 3, 274);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'runner.runnercucumber')
+data.setCell(46, 3, 269);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'runner.runnercucumber')
+data.setCell(47, 3, 227);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -1050,188 +1155,206 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.runnercucumber</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@13c79e0d)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@704205ef)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("launch the home page of dsalgo portal", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">4474 ms</span>
+                <span class="method-start">9222 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on home page", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">5679 ms</span>
+                <span class="method-start">11811 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on home page", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">5973 ms</span>
+                <span class="method-start">12336 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on home page", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">6240 ms</span>
+                <span class="method-start">12924 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on home page", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">6572 ms</span>
+                <span class="method-start">13509 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on home page", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">6867 ms</span>
+                <span class="method-start">14068 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">7136 ms</span>
+                <span class="method-start">14667 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">7620 ms</span>
+                <span class="method-start">15506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">8203 ms</span>
+                <span class="method-start">16122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">8597 ms</span>
+                <span class="method-start">16787 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">9016 ms</span>
+                <span class="method-start">17434 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">9425 ms</span>
+                <span class="method-start">18060 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on sign in", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">9890 ms</span>
+                <span class="method-start">18795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is on Home page and click on Register", "Launch Start page and Test Home Page")</span>
-                <span class="method-start">10119 ms</span>
+                <span class="method-start">19075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can navigate to Overview of trees page", "Title of your feature")</span>
+                <span class="method-start">19414 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is presented with error message for empty fields below Username textbox", "Title of your f...)</span>
-                <span class="method-start">10282 ms</span>
+                <span class="method-start">25804 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is presented with error message for empty fields below Password textbox", "Title of your f...)</span>
-                <span class="method-start">10543 ms</span>
+                <span class="method-start">26243 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is presented with error message for empty fields belo Password Confirmation textbox", "Tit...)</span>
-                <span class="method-start">10789 ms</span>
+                <span class="method-start">27989 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("to register with all the data", "Title of your feature")</span>
-                <span class="method-start">11310 ms</span>
+                <span class="method-start">31126 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("to register with all the data", "Title of your feature")</span>
-                <span class="method-start">13985 ms</span>
+                <span class="method-start">33013 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("to register with all the data", "Title of your feature")</span>
-                <span class="method-start">15153 ms</span>
+                <span class="method-start">34046 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("to register with all the data", "Title of your feature")</span>
-                <span class="method-start">16216 ms</span>
+                <span class="method-start">35050 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verifying signin link", "Title of your feature")</span>
-                <span class="method-start">17329 ms</span>
+                <span class="method-start">36054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can navigate to Terminologies page", "Title of your feature")</span>
+                <span class="method-start">36282 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Redirect to Register page", "performing signin")</span>
-                <span class="method-start">17565 ms</span>
+                <span class="method-start">40335 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Redirect to login  page", "performing signin")</span>
-                <span class="method-start">17962 ms</span>
+                <span class="method-start">40864 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with invalid inputs", "performing signin")</span>
-                <span class="method-start">18355 ms</span>
+                <span class="method-start">41198 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with invalid inputs", "performing signin")</span>
-                <span class="method-start">19061 ms</span>
+                <span class="method-start">41836 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with invalid inputs", "performing signin")</span>
-                <span class="method-start">19695 ms</span>
+                <span class="method-start">42227 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</span>
-                <span class="method-start">20136 ms</span>
+                <span class="method-start">42603 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</span>
-                <span class="method-start">21175 ms</span>
+                <span class="method-start">43526 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</span>
-                <span class="method-start">22198 ms</span>
+                <span class="method-start">44486 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario(""User on login page and login with invalid and valid inputs from Excel"", "performing signin")</span>
-                <span class="method-start">23189 ms</span>
+                <span class="method-start">45471 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verifying signout link", "performing signin")</span>
-                <span class="method-start">24267 ms</span>
+                <span class="method-start">46755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can navigate to Types of trees page", "Title of your feature")</span>
+                <span class="method-start">47132 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is logged in to DS Algo portal", "performing Data Structures-Introduction")</span>
-                <span class="method-start">24518 ms</span>
+                <span class="method-start">53408 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to Data Structure introduction page", "performing Data Structures-Intr...)</span>
-                <span class="method-start">25513 ms</span>
+                <span class="method-start">54636 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction")</span>
-                <span class="method-start">25785 ms</span>
+                <span class="method-start">54909 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing ...)</span>
-                <span class="method-start">26055 ms</span>
+                <span class="method-start">55423 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-In...)</span>
-                <span class="method-start">26768 ms</span>
+                <span class="method-start">55824 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is presented with error message for code with invalid syntax in tryEditor for Time Complex...)</span>
-                <span class="method-start">27436 ms</span>
+                <span class="method-start">56507 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("user is on homepage", "performing Stack")</span>
-                <span class="method-start">28047 ms</span>
+                <span class="method-start">57139 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to "Operations in Stack" page", "performing Stack")</span>
-                <span class="method-start">28517 ms</span>
+                <span class="method-start">57675 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to a page having an tryEditor", "performing Stack")</span>
-                <span class="method-start">28831 ms</span>
+                <span class="method-start">58180 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to run code in tryEditor", "performing Stack")</span>
-                <span class="method-start">29130 ms</span>
+                <span class="method-start">58639 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to run code in tryEditor", "performing Stack")</span>
-                <span class="method-start">29415 ms</span>
+                <span class="method-start">58925 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user is able to navigate to "Practice Questions" in stack Page", "performing Stack")</span>
-                <span class="method-start">29783 ms</span>
+                <span class="method-start">59452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User Clicked on TryEditor Link on Tree Page", "Tree Page Try Editor test")</span>
+                <span class="method-start">59950 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">30129 ms</span>
+                <span class="method-start">60391 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
