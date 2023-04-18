@@ -1,3 +1,4 @@
+@startPage3
 Feature: performing Data Structures-Introduction
 
 	Scenario: The user is logged in to DS Algo portal

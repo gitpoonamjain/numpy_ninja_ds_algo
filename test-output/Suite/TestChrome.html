@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>24/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 30 15:47:40 EDT 2023</td>
+<td>Started on:</td><td>Thu Apr 13 15:01:10 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27784 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22045 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,279 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace481896873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace481896873'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor139.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace879136982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace879136982'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor139.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace370279024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace370279024'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;The user is on signin page&apos; and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;The user is on signin page&quot;)
-public void the_user_is_on_signin_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;The user enter invalid {string} and {string}&quot;)
-public void the_user_enter_invalid_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;click login button to verify&quot;)
-public void click_login_button_to_verify() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at jdk.internal.reflect.GeneratedMethodAccessor139.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -349,47 +76,92 @@ public void click_login_button_to_verify() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to Register page", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signout link", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Operations in Stack" page", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "launch the home page of dsalgo portal", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>1</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
-<td></td>
-<td>2</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to login  page", "performing signin"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on homepage", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor", "performing Stack"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
@@ -399,7 +171,32 @@ public void click_login_button_to_verify() {
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run code in tryEditor", "performing Stack"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signin link", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to "Practice Questions" in stack Page", "performing Stack"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
@@ -414,7 +211,7 @@ public void click_login_button_to_verify() {
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to Register page", "performing signin"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
@@ -424,7 +221,52 @@ public void click_login_button_to_verify() {
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "to register with all the data", "Title of your feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page", "performing Data Structures-Introduction"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: ""User on login page and login with invalid and valid inputs from Excel"", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "launch the home page of dsalgo portal", "Launch Start page and Test Home Page"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to login  page", "performing signin"</td>
+<td></td>
+<td>0</td>
+<td>runner.runnercucumber@544fa968</td></tr>
+<tr>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to a page having an tryEditor from Time Complexity page", "performing Data Structures-Introduction"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
@@ -434,27 +276,12 @@ public void click_login_button_to_verify() {
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying signin link", "Title of your feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on dropdown without sign in", "Launch Start page and Test Home Page"</td>
-<td></td>
-<td>0</td>
-<td>runner.runnercucumber@544fa968</td></tr>
-<tr>
 <td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on home page", "Launch Start page and Test Home Page"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is on Home page and click on Register", "Launch Start page and Test Home Page"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is logged in to DS Algo portal", "performing Data Structures-Introduction"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
@@ -464,7 +291,7 @@ public void click_login_button_to_verify() {
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>
 <tr>
-<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for empty fields below Password textbox", "Title of your feature"</td>
+<td title='runner.runnercucumber.runScenario()'><b>runScenario</b><br>Test class: runner.runnercucumber<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "performing Data Structures-Introduction"</td>
 <td></td>
 <td>0</td>
 <td>runner.runnercucumber@544fa968</td></tr>

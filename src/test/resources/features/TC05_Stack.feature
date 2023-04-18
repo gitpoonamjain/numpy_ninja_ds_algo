@@ -1,3 +1,4 @@
+@startPage4
 Feature: performing Stack
 
 Scenario: user is on homepage

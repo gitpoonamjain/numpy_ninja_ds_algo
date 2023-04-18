@@ -1,4 +1,4 @@
-
+@startPage1
 Feature: Title of your feature
   User want to do resistration
  

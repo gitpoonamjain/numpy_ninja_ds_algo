@@ -1,3 +1,4 @@
+@startPage2
 Feature: performing signin
 
   Scenario: Redirect to Register page
